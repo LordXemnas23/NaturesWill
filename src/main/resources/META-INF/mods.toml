@@ -1,0 +1,35 @@
+modLoader="javafml" #mandatory
+loaderVersion="[31,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+issueTrackerURL="http://my.issue.tracker/" #optional
+
+[[mods]] #mandatory
+modId="natureswill" #mandatory
+
+version="${file.jarVersion}" #mandatory
+displayName="Nature's Will" #mandatory
+
+updateJSONURL="http://myurl.me/" 
+displayURL="http://example.com"
+logoFile="examplemod.png"
+credits="LordXemnas23"
+authors="LordXemnas23"
+description='''
+    A Druid mod inspired by D&D.
+'''
+
+
+
+
+[[dependencies.natureswill]] 
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[31,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.natureswill]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
